@@ -16,6 +16,8 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 APPS_DIR = os.path.join(BASE_DIR, "library")
 TEMPLATES_DIR = os.path.join(APPS_DIR, "templates")
+MEDIA_URL = "/media/"
+MEDIA_ROOT = os.path.join(APPS_DIR, "media")
 
 env = os.environ
 
