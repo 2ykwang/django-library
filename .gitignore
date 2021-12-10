@@ -3,7 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class 
 node_modules/
-
+media/
 # local db 파일
 *.sqlite
 
